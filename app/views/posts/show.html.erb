@@ -1,0 +1,8 @@
+<h1><%= @post.title %></h1>
+<p><%= @post.body %></p>
+<hr>
+
+<%= link_to "Edit Post", edit_post_path(@post), :class => 'btn btn-primary' %>
+
+<%= link_to "Delete Post", post_path(@post), data: {method: :delete, confirm: 'Are you sure?'}, :class => 'btn btn-danger'%>
+                            

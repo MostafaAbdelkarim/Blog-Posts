@@ -1,0 +1,13 @@
+<br>
+<h1>All Blog Posts</h1>
+<br>
+<% @post.each do |post|%>
+    <div class="well">
+        <h3><%= post.title%></h3>
+        <p><%= post.body%></p>
+        <%=link_to "Read More", post_path(post), :class => 'btn btn-primary'%>
+        <hr>
+    </div>
+<% end %>
+
+
