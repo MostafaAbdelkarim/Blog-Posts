@@ -1,24 +1,24 @@
-# README
+<p align="center"><img width=100% src="resources/banner.png"></p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Things you may want to cover:
+## Basic Overview
 
-* Ruby version
+Implementing CRUD operations using Ruby On Rails and Bootstrap
 
-* System dependencies
+## How to use
 
-* Configuration
+- Clone the repo.
+- Open CMD
+- cd --project-path
+- 'rails s' or 'rails server'
+- You can start experimenting using this link:
 
-* Database creation
+```text
+http://localhost:3000/
+```
 
-* Database initialization
+### Bug Reports & Feature Requests
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Please use the [issue tracker](https://github.com/MostafaAbdelkarim/Blog-Posts/issues) to report any bugs or file feature requests.
